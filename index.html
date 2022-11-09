@@ -1,7 +1,8 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
     <title>My web application</title>
+    <meta charset="utf-8" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
@@ -14,7 +15,7 @@
 
 
     <h2>Embed SoundCloud Audio</h2>
-    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/659468345&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/muhammad-nabeel-439919142" title="Songs Hub" target="_blank" style="color: #cccccc; text-decoration: none;">Songs Hub</a> � <a href="https://soundcloud.com/muhammad-nabeel-439919142/ali-mola-ali-dam-dam-official-full-track-remix-tiktok-famous-2019-sultan-ul-qadria-qawwal" title="ALI MOLA ALI DAM DAM | Official Full Track | Remix | Tiktok Famous | 2019 | Sultan Ul Qadria Qawwal." target="_blank" style="color: #cccccc; text-decoration: none;">ALI MOLA ALI DAM DAM | Official Full Track | Remix | Tiktok Famous | 2019 | Sultan Ul Qadria Qawwal.</a></div>
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/659468345&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/muhammad-nabeel-439919142" title="Songs Hub" target="_blank" style="color: #cccccc; text-decoration: none;">Songs Hub</a> · <a href="https://soundcloud.com/muhammad-nabeel-439919142/ali-mola-ali-dam-dam-official-full-track-remix-tiktok-famous-2019-sultan-ul-qadria-qawwal" title="ALI MOLA ALI DAM DAM | Official Full Track | Remix | Tiktok Famous | 2019 | Sultan Ul Qadria Qawwal." target="_blank" style="color: #cccccc; text-decoration: none;">ALI MOLA ALI DAM DAM | Official Full Track | Remix | Tiktok Famous | 2019 | Sultan Ul Qadria Qawwal.</a></div>
 
     <h2>Embed Local System Video with video tag (tag 5) and source tag (tag 6)</h2>
     <video width="100%" height="240" controls>
@@ -138,9 +139,10 @@
         <li>JavaScript</li>
     </ol>
     <h2>Paragraph tag which is denoted by p (tag 18)</h2>
-    <p>>This is a paragraph</p>
-    <h2>table, thead, tbody, tr, th, td tags (tag 19 to 25)</h2>
+    <p>This is a paragraph</p>
+    <h2>table, caption, thead, tbody, tfoot, tr, th, td tags (tag 19 to 27)</h2>
     <table class="table bordered">
+        <caption>HTML tags with Description</caption>
         <thead>
             <tr>
                 <th>Sr #</th>
@@ -151,7 +153,7 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td> &lt;-- --&gt;</td>
+                <td> &lt;!-- --&gt;</td>
                 <td>This tag is used to apply comment in an HTML document.</td>
             </tr>
             <tr>
@@ -941,6 +943,10 @@
                 </td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td>Table with tfoot tag</td>
+        </tfoot>
     </table>
 
     <h6>Tag 26 (&lt;b&gt;)</h6>
@@ -1020,7 +1026,7 @@
     </select>
 
     <h6>Tag 51  (&lt;param&gt;)</h6>
-    <param name="param1" value="param1">This text is in param tag >
+    <param name="param1" value="param1">
 
     <h6>Tag 52  (&lt;small&gt;)</h6>
     <small>Smaller text</small>
@@ -1036,7 +1042,7 @@
     <textarea>This text is in textarea tag</textarea>
 
     <h6>Tag 56  (&lt;time&gt;)</h6>
-    <time />
+    <time  datetime="03-02-2022"/>
 
     <h6>Tag 57  (&lt;abbr&gt;)</h6>
     <abbr>HTML</abbr>
@@ -1060,11 +1066,167 @@
     <h6>Tag 63  (&lt;footer&gt;)</h6>
     <footer>This text is in footer tag</footer>
 
+    <h6>Tag 64 (&lt;b&gt;)</h6>
+    <b>Bold Text</b>
+
+    <h6>Tag 65 (&lt;i&gt;)</h6>
+    <i>Italic Text</i>
+
+    <h6>Tag 66 (&lt;button&gt;)</h6>
+    <button>Click here</button>
+
+    <h6>Tag 67 an 68 (&lt;article&gt;) (&lt;header&gt;)</h6>
+    <article>
+        <header>Google Chrome</header>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </article>
+
+    <h6>Tag 69 (&lt;section&gt;)</h6>
+    <section>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </section>
+
+    <h6>Tag 70 (&lt;nav&gt;)</h6>
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+    </nav>
+
+    <h6>Tag 71 (&lt;aside&gt;)</h6>
+    <aside>
+        <h4>This is in aside tag</h4>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+    </aside>
+
+    <h6>Tag 72, 73 (&lt;figure&gt;)(&lt;figcaption&gt;)</h6>
+    <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuefB91BVRmwVGdxxf-NVoTH1S_Ea9l5Xvzg&usqp=CAU" alt="Code With Mind">
+        <figcaption>Code With Mind</figcaption>
+    </figure>
+
+    <h6>Tag 74 (&lt;mark&gt;)</h6>
+    <mark>highlighted text</mark>
+
+    <h6>Tag 75 (&lt;main&gt;)</h6>
+    <main>Main Area of document</main>
+
+    <h6>Tag 76 (&lt;noframe&gt;)</h6>
+
+    <h6>Tag 77  (&lt;samp&gt;)</h6>
+    <samp>This text is in samp tag</samp>
+
+    <h6>Tag 78  (&lt;meter&gt;)</h6>
+    <meter value="5"></meter>
+    <h6>Tag 79  (&lt;marquee&gt;)</h6>
+    <marquee>News of the week</marquee>
+
+    <h6>Tag 80 and 81 (&lt;map&gt;)(&lt;area&gt;)</h6>
+    <h1>The map and area elements</h1>
+
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+    <img src="./images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379" />
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,250" alt="Computer" href="computer.htm" />
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+
+    <h6>Tag 82  (&lt;!-- --&gt;)</h6>
+    <!--This is an comment-->
+
+    <h6>Tag 83 Bi-Directional Isolation (&lt;bdi&gt;)</h6>
+    <ul>
+        <li>User <bdi>hrefs</bdi>: 60 points</li>
+        <li>User <bdi>jdoe</bdi>: 80 points</li>
+        <li>User <bdi>إيان</bdi>: 90 points</li>
+    </ul>
+
+    <h6>Tag 84 Bi-Directional Override(&lt;bdo&gt;)</h6>
 
 
+    <p>This paragraph will go left-to-right.</p>
+    <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+
+    <p>This paragraph will go right-to-left.</p>
+    <p><bdo dir="ltr"></bdo></p>
+
+    <h6>Tag 85 and 86(&lt;filedset&gt;)(&lt;legend&gt;)</h6>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <h6>Tag 87(&lt;dialog&gt;)</h6>
+    <dialog open="true">This text is in dialog tag</dialog>
+
+    <br />
+    <br />
+    <br />
+
+    <h6>Tag 88(&lt;wbr&gt;)</h6>
+    <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
+
+    <h6>Tag 89(&lt;dfn&gt;)</h6>
+    <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+    <h6>Tag 90(&lt;embed&gt;)</h6>
+    <embed type="image/jpg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuefB91BVRmwVGdxxf-NVoTH1S_Ea9l5Xvzg&usqp=CAU">
+
+    <h6>Tag 91,92 (&lt;del&gt;)(&lt;ins&gt;)</h6>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
 
 
+    <h6>Tag 93 (&lt;kbd&gt;)</h6>
 
+    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+    <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+    <h6>Tag 94, 95 andd 96(&lt;ruby&gt;)(&lt;rp&gt;)(&lt;rt&gt;)</h6>
+    <ruby>
+        漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+    </ruby>
+
+    <h6>Tag 97 (&lt;s&gt;)</h6>
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+
+    <h6>Tag 98 (&lt;footer&gt;)</h6>
+    <footer>
+        <p>Author: Waqar Kabir</p>
+        <p><a href="https://www.codewithmind.com">Code With Mind</a></p>
+        <span style="float:right"><a href="#" title="Go to top">Jump to Top</a></span>
+    </footer>
+
+    <h6>Tag 99 (&lt;script&gt;)</h6>
+    <script src="./scripts/scrollup.js">
+    </script>
+    <script>
+
+
+        $(function () {
+
+            $.scrollUp();
+
+        });
+
+    </script>
+
+    <h6>Tag 100(&lt;noscript&gt;)</h6>
+    <noscript>Your browser does not support JavaScript!</noscript>
 
 
 
